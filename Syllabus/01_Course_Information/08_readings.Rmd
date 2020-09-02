@@ -1,0 +1,7 @@
+Students are required to obtain a copy of the following required textbook.
+
+\begin{hangparas}{.4in}{1}
+Creswell, J. W., \& Guetterman, T. C. (2019). {\em{Educational research: Planning, conducting, and evaluating quantitative and qualitative research}} (6th ed.). Pearson.
+\end{hangparas}
+
+All other assigned readings, if applicable, will be provided on the \texttt{\href{https://mycourses.umhb.edu/courses/23592}{course website}} under the \texttt{\href{https://mycourses.umhb.edu/courses/23592/files/folder/Readings}{Readings}} tab.

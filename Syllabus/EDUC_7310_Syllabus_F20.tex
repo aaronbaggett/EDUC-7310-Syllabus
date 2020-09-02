@@ -1,0 +1,859 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Times New Roman}
+  \setmonofont[]{Lucida Console}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{fancyhdr, lastpage}
+\pagestyle{fancy}
+% \usepackage{graphicx}
+% \graphicspath{{figs/}}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{verbatim}
+\usepackage{hanging}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{lscape}
+\usepackage{tabulary}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+
+\usepackage{hyperref}
+\hypersetup{  
+   colorlinks,   
+   citecolor=blue,
+   linkcolor=blue,
+   urlcolor=blue,
+}
+
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\chead{}
+\rhead[p. \thepage\ of\ \pageref*{LastPage}]{p. \thepage\ of\ \pageref*{LastPage}}
+\lhead{}
+
+\fancyfoot{}
+\fancyfoot[L]{\textcolor{gray}{EDUC 7310-01}}
+\fancyfoot[C]{\textcolor{gray}{Fall 2020}}
+\fancyfoot[R]{\textcolor{gray}{Aaron R. Baggett, Ph.D.}}
+
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+\begin{figure}[t!]
+  \centering
+  \includegraphics[keepaspectratio, width=0.15\textwidth]{../Figs/Seal-Black}
+\end{figure}
+
+
+\begin{center}
+{\LARGE{\bf{EDUC 7310: Research I Design and Methods}}}\\
+% \vspace{.5mm}
+% {\Large{\bf{Dissertation I}}}\\
+{\small{University of Mary Hardin-Baylor}}\\
+\vspace{.15in}
+{\large{Fall 2020}}
+\end{center}
+
+\thispagestyle{empty}
+
+\vspace{3mm}
+
+\vspace{.25in}
+
+\section{Concact Information}
+
+\textbf{Instructor:} Aaron R. Baggett, Ph.D.\\
+\textbf{Email:}
+\texttt{\href{mailto:abaggett@umhb.edu}{abaggett@umhb.edu}}\\
+\textbf{Office Phone:} (254) 295-4553\\
+\textbf{Office Location:} Wells 140\\
+\textbf{Office Hours:} MWF: 9:00 AM--11:00 AM; MW: 1:00 -- 3:00 PM; TR:
+1:00 PM -- 3:00 PM, and by
+\texttt{\href{mailto:abaggett@umhb.edu}{appointment}}
+
+\begin{tcolorbox}
+[width=\linewidth, sharp corners=all, colback=white!95!red]
+NOTE: All student meetings for the Fall 2020 semester will occur via Dr. Baggett's personal \texttt{\href{https://umhb.zoom.us/j/5393191651}{Zoom ID}}
+\end{tcolorbox}
+
+\subsection{Description}
+
+The purpose of Research I is to establish the foundation for doctoral
+level research. The course offers an overview of both quantitative and
+qualitative methods and designs with an emphasis on critically
+evaluating research. Other topics include general data collection and
+analysis. Students will develop a problem statement, literature review,
+and potential research method regarding a self-selected topic in
+educational research.
+
+\subsection{Meeting}
+
+\textbf{Dates:}
+
+Students enrolled in EDUC 7310: Research I will meet together a total of
+five times throughout the Fall 2020 semester between 1:30 PM--5:30 PM in
+the Parker Academic Center (PAC) room 224.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Saturday, September 12, 2020, PAC 224
+\item
+  Saturday, October 03, 2020, PAC 224
+\item
+  Saturday, October 24, 2020, PAC 224
+\item
+  Saturday, November 14, 2020, PAC 224
+\item
+  Saturday, December 05, 2020, PAC 224
+\end{enumerate}
+
+\textbf{Course Website:}
+\texttt{\href{https://mycourses.umhb.edu/courses/23592}{myCourses}}
+
+\newpage
+\subsection{Advanced Academic Activity}
+
+Doctoral courses contain appropriate advanced academic activity
+reflected in the areas of content, process, and product. The advanced
+activity is facilitated through the dimension of critical thinking,
+synthesis and integration of materials, depth of engagement of
+materials, and contribution to scholarship. The purpose of advanced
+academic activity is to demonstrate a higher level of sophistication and
+to emphasize separation from masters level courses.
+
+\subsection{Course Objectives}
+
+Upon completion of this course, you should be able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Understand the basic quantitative foundations needed to both consume
+  and conduct doctoral level educational and social science research.
+\item
+  Communicate and present a problem statement, literature review, and
+  potential research method(s) regarding a self-selected topic in
+  educational research in oral and written forms using appropriate
+  technical terms for both a technical and non-technical audience.
+\end{enumerate}
+
+\subsection{Student Learning Objectives}
+
+Upon completion of each course module, you should be able to:
+
+\textbf{1. Module 1: The Process of Conducting Research Using
+Quantitative Approaches I {[}Creswell and Guetterman (2019), Chs.
+1--2{]}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Describe the six steps in the process of research
+\item
+  Identify the type of research designs associated with quantitative and
+  qualitative research.
+\item
+  Define a research problem and explain its importance.
+\item
+  Distinguish between a research problem and other parts of the research
+  process.
+\end{enumerate}
+
+\textbf{2. Module 2: The Process of Conducting Research Using
+Quantitative Approaches II {[}Creswell and Guetterman (2019), Chs.
+3--4{]}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Identify the six steps in conducting a literature review.
+\item
+  Describe why purpose statements, research questions, and hypotheses
+  are important.
+\item
+  Produce quantitative purpose statements, research questions, and
+  hypotheses.
+\end{enumerate}
+
+\textbf{3. Module 3: Methods for Collecting Quantitative Data
+{[}Creswell and Guetterman (2019), Ch. 5{]}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  State the five steps in the process of quantitative data collection.
+\item
+  Identify how to select participants for a study.
+\item
+  Describe procedures for quantitative data collection.
+\end{enumerate}
+
+\textbf{4. Module 4: Analyzing and Interpreting Quantitative Data
+{[}Creswell and Guetterman (2019), Ch. 6{]}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Identify the steps in the process of analyzing and interpreting
+  quantitative data
+\item
+  Identify the procedures for analyzing your data.
+\item
+  Learn how to interpret and report the results of data analyses.
+\end{enumerate}
+
+\textbf{5. Module 5: Introduction to Quantitative Research Designs
+{[}Creswell and Guetterman (2019), Chs. 10, 11, 12{]}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Identify the key characteristics of experimental designs.
+\item
+  Describe the steps in conducting an experiment.
+\item
+  Describe the key characteristics of correlational designs.
+\item
+  Describe how to construct and administer survey questionnaires and
+  instruments.
+\end{enumerate}
+
+\subsection{Credit Hour(s)}
+
+For online, hybrid, and other nontraditional modes of delivery, credit
+hours are assigned based on learning outcomes that are equivalent to
+those in a traditional course setting; forty-five (45) hours of work by
+a typical student for each hour of credit.
+
+\subsection{Readings}
+
+Students are required to obtain a copy of the following required
+textbook.
+
+\begin{hangparas}{.4in}{1}
+Creswell, J. W., \& Guetterman, T. C. (2019). {\em{Educational research: Planning, conducting, and evaluating quantitative and qualitative research}} (6th ed.). Pearson.
+\end{hangparas}
+
+All other assigned readings, if applicable, will be provided on the
+\texttt{\href{https://mycourses.umhb.edu/courses/23592}{course website}}
+under the
+\texttt{\href{https://mycourses.umhb.edu/courses/23592/files/folder/Readings}{Readings}}
+tab.
+
+\subsection{Recommended Software}
+
+Any data and statistical analyses in EDAD 7310 will be conducted using
+IBM\textsuperscript{\textregistered}~SPSS\textsuperscript{\textregistered}~Statistics.
+During class meetings, students may access local
+SPSS\textsuperscript{\textregistered}~installations on campus computers.
+However, you may consider purchasing at least a 6-month license to
+download and install SPSS\textsuperscript{\textregistered}~on your own
+computer(s). Below are a few online educational software retailers who
+offer heavily discounted versions of
+IBM\textsuperscript{\textregistered}~SPSS\textsuperscript{\textregistered}~Statistics
+for students.
+
+\emph{Note}: As of \today, the latest version number is 27 However,
+versions 23, 24, 25, and 26 should also be compatible for all data
+analyses conducted throughout this course. Keep in mind previous
+versions sell for the same price as the current version. Prior to
+purchasing SPSS\textsuperscript{\textregistered}~be sure you are
+selecting the versions compatible with your particular computer's
+operating system (i.e., Windows, macOS, etc.).
+IBM\textsuperscript{\textregistered}~SPSS\textsuperscript{\textregistered}~Statistics
+is not compatible with iOS, iPadOS, or Chrome OS.
+
+\textbf{How to purchase SSPS:}
+
+\begin{tcolorbox}
+[width=\linewidth, sharp corners=all, colback=white!95!red]
+NOTE: IBM\textsuperscript{\textregistered}\ SPSS\textsuperscript{\textregistered}\ Statistics Standard GradPack will be sufficient for EDUC 7310. No need to purchase the Premium GradPack.
+\end{tcolorbox}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \texttt{\href{https://onthehub.com/spss/}{OnTheHub}}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Select \textbf{Students} buy now.
+  \item
+    Scroll down until you find your computer's operating system (i.e.,
+    Windows, macOS, etc.) and your desired rental duration (i.e., 06- or
+    12-month).
+  \item
+    Add to Cart.
+  \end{enumerate}
+\item
+  \texttt{\href{https://www.journeyed.com/products/IBM+SPSS/IBM+SPSS+Statistics}{journeyEd}}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Scroll to approximately one-third of the way down the page and look
+    for \textbf{IBM SPSS Statistics Standard Grad Pack 27.0 Academic}.
+  \item
+    Select the link applicable to your operating system.
+  \item
+    Note: only 12-month licenses are available from journeyEd.
+  \end{enumerate}
+\end{enumerate}
+
+\subsection{Academic Integrity}
+
+UMHB's policy on Classroom Expectations and Ethics will be strictly
+upheld in this course. If you have not read it and all subsequent
+sections, it is your responsibility to do so. You may find it online
+here:
+\href{http://catalog.umhb.edu/2019-2020/Graduate-Catalog/Classroom-Expectations-and-Ethics}{\texttt{Classroom Expectations and Ethics}}.
+The omnibus policy outlines University requirements concerning Christian
+citizenship, students' responsibilities, class attendance, academic
+decorum, and academic integrity.
+
+\subsection{Disabled Student Services and Accomodations}
+
+It is the student's responsibility to request disability accommodations.
+Students requesting an accommodation for a disability, must contact the
+UMHB
+\href{http://cths.umhb.edu/disability}{\texttt{Counseling, Testing \& Health Services}}
+as early as possible in the term.
+\href{http://catalog.umhb.edu/en/2019-2020/Graduate-Catalog}{\texttt{The Course Catalog}},
+\href{http://students.umhb.edu/student-handbook}{\texttt{Student Handbook}}
+and \href{https://go.umhb.edu/}{\texttt{UMHB website}} provide more
+details regarding the process by which accommodation requests will be
+reviewed.
+
+For more information, please contact:
+
+\textbf{Blayne Alaniz, Director of Student Disability Services and
+Testing Services}\\
+UMHB Box 8437\\
+900 College Street\\
+Belton, Texas 76513\\
+Office: (254) 295-4739\\
+Fax: (254) 295-4196\\
+Email: \texttt{\href{mailto:balaniz@umhb.edu}{balaniz@umhb.edu}}
+
+\subsection{Course Structure}
+
+All assignments and other coursework are completed individually.
+However, during and between certain class meetings you may either be
+assigned to or asked to form small groups in order to collaborate on
+data analysis projects and/or presentation(s) You will be guided through
+the following course learning modules. See Section 1.5 for corresponding
+student learning outcomes per learning module.
+
+\subsubsection{Learning Modules}
+
+EDAD 7310 is divided into four (4) learning modules:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The Process of Conducting Research Using Quantitative Approaches I
+\item
+  The Process of Conducting Research Using Quantitative Approaches II
+\item
+  Methods for Collecting Quantitative Data
+\item
+  Analyzing and Interpreting Quantitative Data
+\end{enumerate}
+
+\subsection{Course Communication}
+
+\subsubsection{Email}
+
+Most all course communication outside of class will take place via
+email. I will routinely email you course updates and announcements to
+your UMHB-assigned email address. Thus, you should check your email
+frequently. Likewise, due to the nature of this class and the
+corresponding assignments, you will likely need to contact me with
+questions. I am committed to responding as quickly as possible to your
+questions via email. As a result, you can expect me to respond, on
+average, within several hours of your email---often sooner. However, in
+some circumstances, a personal visit during office hours or other
+scheduled appointment may be more efficient than email. You are welcome
+to call me on my office line: (254) 295-4553. This can be an even more
+efficient method for quick troubleshooting inquiries.
+
+\subsubsection{Remind}
+
+There may be occasions when alerting you to course-related updates may
+be most effective in real-time. In these situations, I will communicate
+with you through a free, safe, and one-way messaging service called
+Remind. To sign up for these alerts, text \texttt{@educ7310} to 81010
+and follow the instructions. If you have trouble with this method, try
+texting \texttt{@educ7310} to (254) 296-8301. Additionally, although not
+likely, there may be extenuating circumstances which require me to delay
+and/or cancel a class or other meeting.
+
+\section{Course Requirements}
+
+\subsection{Individual and Team Assignments}
+
+\subsubsection{Reverse Engineering a Journal Article}
+
+The purpose of this assignment is to read and examine critically all
+sections of a peer-reviewed journal article. As a student of educational
+research, it is imperative that you gain familiarity and comfort with
+the structure/purpose of the scientific literature. A detailed
+submission template and grading rubric are available
+\texttt{\href{https://bit.ly/31bLEDx}{here}}.
+
+For each critique, you will select one quantitative research article
+published within the last five years in a peer-reviewed journal. You are
+free to select any article from any reputable, peer-reviewed journal
+under the following conditions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The topic of research and theoretical framework are \emph{unrelated}
+  to your planned dissertation
+  research.\footnote{The purpose of forcing you to branch outside of your own topic/theoretical framework is to allow you to, hopefully, experience different approaches to your own planned quantitative methodology. For example, various disciplines use a variety of nomenclature to describe the elements of research methods and design. Assume you have committed to learning how to play classical piano. All you listen to, practice, and perform are arrangements from the classical greats. However, imagine the perspective you might gain by listening to a jazz pianist improvise? The point is to expose you to various ways in which your methodology is implemented in other "genres" of research outside of you own. The more familiar you can be with your methodology now, the better off you will be both during your oral qualifying exam as well as your dissertation proposal presentation.}
+\item
+  However, the author(s) utilized quantitative methodology similar to or
+  identical to that of your own planned research, as you currently
+  understand it.
+\end{enumerate}
+
+Journal article critiques are due on the following dates:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Sunday, September 27, 2020
+\item
+  Sunday, October 11, 2020
+\end{enumerate}
+
+\subsubsection{Special Topics Team Presentations}
+
+This assignment consists of small groups of students presenting one or
+more special topics from a section(s) of assigned readings from the
+respective module. Teams should prepare a thorough lecture with
+accompanying slides, handouts, etc. You should use no fewer than three
+additional academic resources, not counting the textbook, to supplement
+your presentation. Lectures should be organized, rigorous, and
+comprehensive. You should assume the burden of responsibility for
+providing your peers everything you can in order to ensure they have as
+complete an understanding about your assigned topic(s) as you and your
+partner. They will do the same.
+
+See \texttt{\href{https://bit.ly/2EfvCzF}{Special Topics Presentations}}
+under Files in the course Canvas page for your team's assigned topics.
+
+Team numbers and student pairs were generated using a random sampling
+permutation method. Based on the team number, chapter assignments and
+dates were implemented by the instructor.
+
+\begin{table}[H]
+\begin{center}
+\caption{Special Topics Team Presentation Dates}
+\vspace{3mm}
+\begin{tabular}{llll}
+\hline
+\textbf{Team} & \textbf{Students} & \textbf{Topics} & \textbf{Presentation Date} \\
+\hline
+\multirow{3}{*}{1} & Stephanie Bermudez & \multirow{2}{*}{Ch. 3} & \multirow{2}{*}{Saturday, October 03, 2020} \\
+& Gerard Cortez &  &  \\
+& Dena Sempe &  &  \\
+\hline
+\multirow{3}{*}{2} & Kayla Abshire & \multirow{3}{*}{Ch. 5} & \multirow{3}{*}{Saturday, October 24, 2020} \\
+& Deborah Gilbertson &  &  \\
+& Erika Gutierrez &  &  \\
+\hline
+\multirow{3}{*}{3} & Cassandra Chavira & \multirow{3}{*}{Ch. 6} & \multirow{3}{*}{Saturday, November 14, 2020} \\
+& Charlotte Conner &  & \\
+& Joannie Caraballo-Lopez &  & \\
+\hline
+\multirow{3}{*}{4} & Terre Evans & \multirow{3}{*}{Ch. 12} & \multirow{3}{*}{Saturday, December 05, 2020} \\
+& Erica Hummel &  &  \\
+& Tatiana Czarnecki &   & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Chapter 1 in a Nutshell}
+
+Your culminating assignment/project in EDAD 7310 will be comprised of an
+abridged, rough sketch version of your dissertation's introduction
+section (chapter 1). In chapter 1, you detail, in a sense, the
+foundations of and evidence for your particular research problem, an
+outline of your research questions and corresponding hypotheses, and any
+terms that need defining.
+
+The following pages contain the eight sections you will address in the
+Chapter 1 in a Nutshell assignment. Each section contains a brief
+description of how you should address each section. In brief, the eight
+sections you will address are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Research Problem
+\item
+  Background of the Problem
+\item
+  Research Questions
+\item
+  Hypotheses
+\item
+  Variables
+\item
+  Sample/Population
+\item
+  Definition of Terms
+\item
+  Limitations
+\end{enumerate}
+
+I realize this assignment may feel a little daunting for some of you.
+Not to worry. Again, the more familiar you can be with your planned
+dissertation research now, the better off you will be both during your
+oral qualifying exam as well as your dissertation proposal presentation.
+
+Chapter 1 in a Nutshell is due \textbf{Friday, December 04, 2020.}
+
+\subsection{Grade Calculation}
+
+\subsubsection{Individual and Team Performance}
+
+Table 3 below lists all assignments, their point value, and proportion
+of weighted total. See Table 4 for final grade calculation and letter
+grade distribution.
+
+\begin{table}[H]
+\centering
+\caption{Individual Assignments and Point Values}
+\vspace{3mm}
+\label{points}
+\begin{tabular}{lllrlrr}
+\hline
+\bf{Assignment} & \bf{\em{n}} &  & \bf{Points} &  & \bf{Total} & \bf{Prop.} \\
+\hline
+Journal Article Reviews & 2 & $\times$ & 50 & = & 100 & .25\\
+Special Topics Team Presentations & 1 & $\times$ & 100 & = & 100 & .25\\
+Chapter 1 in a Nutshell & 1 & $\times$ & 100 & = & 100 & .50 \\
+\multicolumn{4}{r}{\bf{Individual Performance Total}} & {\bf{=}} & {\bf{300}} & {\bf{1.00}} \\
+\hline
+\end{tabular}
+\label{points}
+\end{table}
+
+\subsubsection{Final Grade Calculation}
+
+All course grades will be posted in the gradebook in myCourses. All
+point totals and proportional weights listed in Table 2 are reflected in
+myCourses. Thus, your current grade in myCourses should reflect your
+actual grade. Table 4 below describes the point range required to
+achieve a given letter grade.
+
+\begin{table}[H]
+\begin{center}
+\caption{Final Grade Point Range Requirements}
+\label{finalgrades}
+\vspace{3mm}
+\begin{tabular}{cccc}
+\hline
+\bf{Grade} & \bf{Point Range} & \bf{Percentage} & \bf{Grade Points}\\
+\hline
+A & 270.00 -- 300.00 & 90 -- 100 & 4.0\\ 
+B & 240.00 -- 267.00 & 80 -- 89  & 3.0\\ 
+C & 210.00 -- 237.00 & 70 -- 79  & 2.0\\ 
+D & 180.00 -- 207.00 & 60 -- 69  & 1.0\\ 
+F & 000.00 -- 177.00 & 00 -- 59  & 0.0\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Policies}
+
+\subsection{Attendance}
+
+Your regular attendance and participation in this course is expected. I
+will record and maintain attendance records for each student. Attendance
+is worth 5\% of your final grade. In other words, if you attend 100\% of
+the scheduled class meetings you will earn the complete 5\% attendance
+total. Any University- or otherwise-excused absence will not count
+toward this total. At the conclusion of the semester, the percentage of
+class meetings you attended will be multiplied by 0.05 to obtain your
+attendance grade.
+
+\subsection{Late Work}
+
+All assignments are considered late if submitted after the date and time
+specified in the syllabus and/or course website. This policy will be
+enforced in the event that assignment deadlines are revised during the
+course of the term. Assignments submitted late will result in a penalty
+of 20 percentage points per day.\textbackslash{}
+
+For example, if an assignment is due on March 22, 2020 and is submitted
+within 24 hours of the due date and time that assignment will result in
+an automatic deduction of 20 percentage points from the assignment raw
+score. In other words, if you submit an assignment worth 10 points on
+March 23, 2020, and the assignment was originally due March 22, 2020,
+and you score a 9.5/10, then your new score would be:
+
+\begin{equation}
+9.5 - (9.5)(0.20) \times 100 = 7.6.
+\end{equation}
+
+Assignments submitted more than five calendar days late will receive a
+grade of zero. To ensure fairness, this policy will be strictly
+enforced. Exceptons are made at the discretion of the instructor and may
+include, but are not limited to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Death in the immediate family (parent, spouse, sibling, child)
+\item
+  Unforeseeable medical emergency affecting yourself, your spouse, or
+  your child (e.g., automobile accident, major sickness, et al.).
+\item
+  Participation in an official UMHB-sponsored event
+\end{enumerate}
+
+\emph{Note}: Routine medical appointments or clinical visits related to
+minor illnesses do not qualify as an unforeseeable medical emergency.
+Likewise, conflicts with a work schedule or trips not related to
+official UMHB events do not qualify for assignment absolution.
+
+\section{Disclaimer}
+
+Syllabus is subject to change at instructor's discretion.
+
+\newpage
+
+\section{Course Calendar}
+
+\begin{tabularx}{\linewidth}{XcXr}
+\hline
+\textbf{Module} & \textbf{Week} & \textbf{Date} & \textbf{Reading} \\
+\hline
+
+The Process of Conducting Research Using Quantitative Approaches I & 1 & Saturday, September 12, 2020 & Chs. 01--02 \\
+ &  &  &  \\
+ 
+The Process of Conducting Research Using Quantitative Approaches II & 2 & Saturday, October 03, 2020 & Chs. 03--04 \\
+ &  &  & \\
+ 
+Methods for Collecting Quantitative Data & 3 & Saturday, October 24, 2020 & Ch. 05 \\
+ &  &  & \\
+ 
+Analyzing and Interpreting Quantitative Data & 4 & Saturday, November 14, 2020 & Ch. 06 \\
+ &  &  &  \\
+ 
+Introduction to Quantitative Research Designs & 5 & Saturday, December 05, 2020 & Chs. 10--12 \\
+\hline
+\end{tabularx}
+
+\newpage
+\section{Calendar of Due Dates}
+
+\begin{tabularx}{\linewidth}{p{4cm}Xr}
+\hline
+\textbf{Month} & \textbf{Date} & \textbf{Due} \\
+\hline
+\multirow{1}{*}{September} & Saturday, September 27, 2020 & Journal Article Review \#1 \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{3}{*}{October} & Saturday, October 03, 2020 & Team 1 Presentation \\
+& Sunday, October 11, 2020 & Journal Article Review \#2 \\
+& Saturday, October 24, 2020 & Team 2 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{1}{*}{November} & Saturday, November 14, 2020 & Team 3 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{2}{*}{December} & Friday, December 04, 2020 & Chapter 1 in a Nutshell \\
+& Saturday, December 05, 2020 & Team 4 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\end{tabularx}
+
+\newpage
+\section{CruFlex and Other Pandemic-Related Details}
+
+For both semesters of the 2020-2021 academic year, UMHB will utilize
+three approaches to class offerings:
+
+\begin{enumerate}
+\item A hybrid-flexible approach, called CRUflex, will be utilized for most class offerings. CRUflex courses will be set up to run face-to-face, online synchronously, and online asynchronously at the same time. Students will have the choice to attend any or all of these formats each week.
+\item Some courses and programs, called non-CRUflex, will be excluded from components of the CRUflex model. Excluded courses may include classes such as clinicals, internships, activity courses, and courses/programs where specific accreditation requirements apply. Non-CRUflex courses will not be able to accommodate all three modalities simultaneously. Thus, there may be a mandatory face-to-face component or restrictions for online participation.
+\item Traditional online courses will be offered as well. Online courses do not have an on campus component.
+\end{enumerate}
+
+Flexibility is at the heart of this new approach to classroom
+instruction. For CRUflex courses, you may opt to do any of the
+following:
+
+\begin{enumerate} 
+\item Take a course in a modified face-to-face manner that allows for social distancing
+\item Take a course online for the entire semester 
+\item Begin the semester remotely and attend face-to-face later in the semester
+\item Begin the semester face-to-face and complete the course remotely
+\item Choose a combination of modalities to fit your current needs.
+\end{enumerate}
+
+We will adopt a classroom model that divides most classes into multiple
+cohorts. Students will attend classes face-to-face on certain days and
+remotely at other times. The amount of time for each modality may be
+different for each course depending on classroom capacity, number of
+students in the class, and social distancing requirements. For the days
+in which you are not in the classroom, you can attend remotely during
+the same time as the class or even at a later time.
+
+This hybrid model will go into effect for almost all courses, with
+accommodations made for some classes such as clinicals, internships,
+activity courses, and courses/programs where specific accreditation
+requirements apply. More information about those courses will be coming
+to you from your deans.
+
+For additional information about CRUflex, please click here for the
+\texttt{\href{https://bit.ly/3fJpoEW}{CRUflex FAQ}}.
+
+\newpage
+
+\begin{center}
+\color{violet}{\bf{\large{The Cru Health and Safety Pledge}}}
+\end{center}
+
+\vspace{.25cm}
+
+As a member of the UMHB community, to responsibly help mitigate the
+potential spread of COVID-19, I promise to:
+
+\textbf{CARE FOR MYSELF AND OTHERS:}
+
+\begin{itemize}
+\item Read and comply with the Safe Return to Campus plan, which includes training materials and health/safety protocols. 
+\item Follow all UMHB health and safety protocols 
+\item Conduct daily self-screening. 
+\item Stay home and not enter campus facilities if I feel sick. 
+\item Stay home and not enter campus facilities if I have been exposed to someone who has tested positive for COVID-19. 
+\item Properly wear a face covering when in common areas of campus, including all classrooms. 
+\item Wash or sanitize my hands often. 
+\item Follow social distancing protocols (at least 6 feet of distance and limitations on numbers of individuals gathering in a common location) both on and off campus, not making assumptions about who may be more vulnerable to contracting this illness. 
+\item Keep my clothing, belongings, personal spaces and shared common spaces clean, and not share personal items such as cell phones, eating utensils and water bottles with others, which could spread the COVID-19 virus.
+\end{itemize}
+
+\textbf{RESPECT OUR CAMPUS AND SURROUNDING COMMUNITY:}
+
+\begin{itemize}
+\item Follow all directions given by university officials and displayed on university signage. 
+\item Be respectful and responsive when others remind me of these health and safety protocols. 
+\item Pay attention to and observe national, state and local directives. 
+\item Remember that not everyone is affected the same by COVID-19. By complying with COVID-19 health guidelines, I will help those who are most vulnerable to stay safe. 
+\end{itemize}
+
+\textbf{REPORT}
+
+\begin{itemize}
+\item Stay home and immediately notify Dr. Brandon Skaggs at (214) 704-1168 or Michael Burns at (405) 308-7336 or \texttt{\href{mailto:student.covid@umhb.edu}{student.covid@umhb.edu}} should I develop any of these symptoms: cough, shortness of breath or difficulty breathing, chills, repeated shakes with chills, muscle pain, headache, sore throat, loss of taste or smell, diarrhea, feeling feverish or a measured temperature of 100 F; or if I have known close contact with someone who is lab-confirmed positive to have COVID-19. 
+\item I understand that contacting other faculty or staff does not fulfill my duty to immediately report to Dr. Skaggs or Mr. Burns.
+\end{itemize}
+
+I acknowledge that this Promise is a condition of my ability to
+participate in the 2020-21 academic year and utilize university
+facilities. My failure to comply may lead to immediate removal from
+classes, from campus and/or the inability to use certain facilities.
+Violations of this Promise will be referred, reviewed and adjudicated in
+accordance with the procedure outlined in
+\texttt{\href{https://go.umhb.edu/students/student-handbook}{UMHB’s Code of Student Conduct}}.
+
+\end{document}

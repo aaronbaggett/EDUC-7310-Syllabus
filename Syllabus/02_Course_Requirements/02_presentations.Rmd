@@ -1,0 +1,33 @@
+This assignment consists of small groups of students presenting one or more special topics from a section(s) of assigned readings from the respective module. Teams should prepare a thorough lecture with accompanying slides, handouts, etc. You should use no fewer than three additional academic resources, not counting the textbook, to supplement your presentation. Lectures should be organized, rigorous, and comprehensive. You should assume the burden of responsibility for providing your peers everything you can in order to ensure they have as complete an understanding about your assigned topic(s) as you and your partner. They will do the same. <!-- *A detailed submission template and grading rubric will be provided*. -->
+
+See \texttt{\href{https://bit.ly/2EfvCzF}{Special Topics Presentations}} under Files in the course Canvas page for your team's assigned topics.
+
+Team numbers and student pairs were generated using a random sampling permutation method. Based on the team number, chapter assignments and dates were implemented by the instructor.
+
+\begin{table}[H]
+\begin{center}
+\caption{Special Topics Team Presentation Dates}
+\vspace{3mm}
+\begin{tabular}{llll}
+\hline
+\textbf{Team} & \textbf{Students} & \textbf{Topics} & \textbf{Presentation Date} \\
+\hline
+\multirow{3}{*}{1} & Stephanie Bermudez & \multirow{2}{*}{Ch. 3} & \multirow{2}{*}{Saturday, October 03, 2020} \\
+& Gerard Cortez &  &  \\
+& Dena Sempe &  &  \\
+\hline
+\multirow{3}{*}{2} & Kayla Abshire & \multirow{3}{*}{Ch. 5} & \multirow{3}{*}{Saturday, October 24, 2020} \\
+& Deborah Gilbertson &  &  \\
+& Erika Gutierrez &  &  \\
+\hline
+\multirow{3}{*}{3} & Cassandra Chavira & \multirow{3}{*}{Ch. 6} & \multirow{3}{*}{Saturday, November 14, 2020} \\
+& Charlotte Conner &  & \\
+& Joannie Caraballo-Lopez &  & \\
+\hline
+\multirow{3}{*}{4} & Terre Evans & \multirow{3}{*}{Ch. 12} & \multirow{3}{*}{Saturday, December 05, 2020} \\
+& Erica Hummel &  &  \\
+& Tatiana Czarnecki &   & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

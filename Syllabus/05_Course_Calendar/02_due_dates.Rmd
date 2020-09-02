@@ -1,0 +1,27 @@
+\newpage
+\section{Calendar of Due Dates}
+
+\begin{tabularx}{\linewidth}{p{4cm}Xr}
+\hline
+\textbf{Month} & \textbf{Date} & \textbf{Due} \\
+\hline
+\multirow{1}{*}{September} & Saturday, September 27, 2020 & Journal Article Review \#1 \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{3}{*}{October} & Saturday, October 03, 2020 & Team 1 Presentation \\
+& Sunday, October 11, 2020 & Journal Article Review \#2 \\
+& Saturday, October 24, 2020 & Team 2 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{1}{*}{November} & Saturday, November 14, 2020 & Team 3 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\multirow{2}{*}{December} & Friday, December 04, 2020 & Chapter 1 in a Nutshell \\
+& Saturday, December 05, 2020 & Team 4 Presentation \\
+\arrayrulecolor{gray}\hline
+&  &  \\
+
+\end{tabularx}

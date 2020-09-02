@@ -1,0 +1,33 @@
+Upon completion of each course module, you should be able to:
+
+**1. Module 1: The Process of Conducting Research Using Quantitative Approaches I [Creswell and Guetterman (2019), Chs. 1--2]**
+
+  1. Describe the six steps in the process of research
+  2. Identify the type of research designs associated with quantitative and qualitative research.
+  3. Define a research problem and explain its importance.
+  4. Distinguish between a research problem and other parts of the research process.
+
+**2. Module 2: The Process of Conducting Research Using Quantitative Approaches II [Creswell and Guetterman (2019), Chs. 3--4]**
+
+  1. Identify the six steps in conducting a literature review.
+  2. Describe why purpose statements, research questions, and hypotheses are important.
+  3. Produce quantitative purpose statements, research questions, and hypotheses.
+
+**3. Module 3: Methods for Collecting Quantitative Data [Creswell and Guetterman (2019), Ch. 5]**
+
+  1. State the five steps in the process of quantitative data collection.
+  2. Identify how to select participants for a study.
+  3. Describe procedures for quantitative data collection.
+
+**4. Module 4: Analyzing and Interpreting Quantitative Data [Creswell and Guetterman (2019), Ch. 6]**
+
+  1. Identify the steps in the process of analyzing and interpreting quantitative data
+  2. Identify the procedures for analyzing your data.
+  3. Learn how to interpret and report the results of data analyses.
+
+**5. Module 5: Introduction to Quantitative Research Designs [Creswell and Guetterman (2019), Chs. 10, 11, 12]**
+
+  1. Identify the key characteristics of experimental designs.
+  2. Describe the steps in conducting an experiment.
+  3. Describe the key characteristics of correlational designs.
+  4. Describe how to construct and administer survey questionnaires and instruments.
