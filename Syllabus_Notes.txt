@@ -1,0 +1,15 @@
+01_Course_Information
+[06] 1.5 Student Learning Objectives
+[12] 1.10 Course Structure 
+
+02_Course_Requirements
+[01] Reverse Engineering a Journal Article
+[02] Presentations
+[03] Labs
+[04] chapter_1
+[05] grade calculation
+
+05_Course_Calendar
+[01] course calendar
+[02] due dates
+

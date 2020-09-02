@@ -1,13 +1,17 @@
 **Dates:** 
 
-Students enrolled in EDUC 7310: Research I will meet together a total of five times throughout the Fall 2020 semester between 1:30 PM--5:30 PM in the Parker Academic Center (PAC) room 224.
+Students enrolled in EDUC 7310: Research I will meet together a total of five times throughout the Fall 2020 semester between 1:30 PM--5:30 PM in the Parker Academic Center (PAC) room 222 and 212 (see below).
   
-  1. Saturday, September 12, 2020, PAC 224
-  2. Saturday, October 03, 2020, PAC 224
-  3. Saturday, October 24, 2020, PAC 224
-  4. Saturday, November 14, 2020, PAC 224
-  5. Saturday, December 05, 2020, PAC 224
+  1. Saturday, September 12, 2020, PAC 222
+  2. Saturday, October 03, 2020, PAC 222
+  3. Saturday, October 24, 2020, PAC 212
+  4. Saturday, November 14, 2020, PAC 212
+  5. Saturday, December 05, 2020, PAC 212
 
-<!-- LOCATION -->
-<!-- **Location:** PAC 224 & 224   -->
-**Course Website:** \texttt{\href{https://mycourses.umhb.edu/courses/23592}{myCourses}}
+<!-- **A Note About This Semester** -->
+
+<!-- Since Research I is designed to outline and introduce students to the basics of educational research using both qualitative and quantitative methods, we will be dividing the course content  into 2 separate two-week segments.  -->
+
+<!-- To accomplish this, students with last names starting with I-Z will meet with Dr. Nguyen in PAC 223 on both Saturday, September 12 and Saturday, October 03. Likewise, students with last names A-H will meet with Dr. Baggett in PAC 222 for those dates. Beginning with the October 24 sessions, the groups will then flip, with I-Z joining Dr. Baggett in PAC 212 and A-H joining Dr. Nguyen. -->
+
+<!-- Finally, all students will then complete a culminating assignment (details TBA) during the final class session of the semester, Saturday, December 05, 2020. Because of the need to social distance, I-Z will remain in PAC 212 with Dr. Baggett, while A-H will remain with Dr. Nguyen in PAC 223. -->

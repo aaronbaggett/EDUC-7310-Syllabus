@@ -49,9 +49,9 @@ mainfont: Times New Roman
 ```{r readings, child = "01_Course_Information/08_readings.Rmd"}
 ```
 
-\subsection{Recommended Software}
-```{r software, child = "01_Course_Information/09_required_software.Rmd"}
-```
+<!-- \subsection{Recommended Software} -->
+<!-- ```{r software, child = "01_Course_Information/09_required_software.Rmd"} -->
+<!-- ``` -->
 
 \subsection{Academic Integrity}
 ```{r integrity, child = "01_Course_Information/10_academic_integrity.Rmd"}
