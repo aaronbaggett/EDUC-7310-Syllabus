@@ -80,15 +80,16 @@ mainfont: Times New Roman
 ```{r ass_a, child = "02_Course_Requirements/01_critiques.Rmd"}
 ```
 
-\subsubsection{Special Topics Team Presentations}
-```{r ass_b, child = "02_Course_Requirements/02_presentations.Rmd"}
-```
+<!-- \subsubsection{Special Topics Team Presentations} -->
+<!-- ```{r ass_b, child = "02_Course_Requirements/02_presentations.Rmd"} -->
+<!-- ``` -->
 
 <!-- \subsubsection{Individual Data Analysis Lab Assignments} -->
 <!-- ```{r ass_k, child = "02_Course_Requirements/03_labs.Rmd"} -->
 <!-- ``` -->
 
-\subsubsection{Chapter 1 in a Nutshell}
+<!-- \subsubsection{Chapter 1 in a Nutshell} -->
+\subsubsection{Culminating Assignment/Project}
 ```{r ass_k, child = "02_Course_Requirements/04_chapter_1.Rmd"}
 ```
 

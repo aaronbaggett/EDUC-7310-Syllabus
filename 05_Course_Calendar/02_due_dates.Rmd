@@ -1,27 +1,34 @@
 \newpage
 \section{Calendar of Due Dates}
 
-\begin{tabularx}{\linewidth}{p{4cm}Xr}
+\begin{tabularx}{\linewidth}{p{3cm}Xrc}
 \hline
-\textbf{Month} & \textbf{Date} & \textbf{Due} \\
+\textbf{Month} & \textbf{Date} & \textbf{Due} & \textbf{Group} \\
 \hline
-\multirow{1}{*}{September} & Saturday, September 27, 2020 & Journal Article Review \#1 \\
+&  &  & \\
+\multirow{1}{*}{September} & Saturday, September 27, 2020 & Journal Article Review \#1 & A-H \\
+&  &  & \\
 \arrayrulecolor{gray}\hline
-&  &  \\
 
-\multirow{3}{*}{October} & Saturday, October 03, 2020 & Team 1 Presentation \\
-& Sunday, October 11, 2020 & Journal Article Review \#2 \\
-& Saturday, October 24, 2020 & Team 2 Presentation \\
+&  &  & \\
+\multirow{1}{*}{October} & Sunday, October 11, 2020 & Journal Article Review \#2 & A-H \\
+&  &  & \\
 \arrayrulecolor{gray}\hline
-&  &  \\
 
-\multirow{1}{*}{November} & Saturday, November 14, 2020 & Team 3 Presentation \\
+&  &  & \\
+\multirow{2}{*}{November} & Sunday, November 01, 2020 & Journal Article Review \#1 & \multirow{2}{*}{J-Z} \\
+& Sunday, November 22, 2020 & Journal Article Review \#2 \\
+&  &  & \\
 \arrayrulecolor{gray}\hline
-&  &  \\
 
-\multirow{2}{*}{December} & Friday, December 04, 2020 & Chapter 1 in a Nutshell \\
-& Saturday, December 05, 2020 & Team 4 Presentation \\
+% &  &  & \\
+% \multirow{1}{*}{December} & Friday, December 04, 2020 & Chapter 1 in a Nutshell & A-Z\\
+% &  &  & \\
+% \arrayrulecolor{gray}\hline
+
+&  &  & \\
+\multirow{1}{*}{December} & Friday, December 04, 2020 & Culminating Assignment/Project & A-Z\\
+&  &  & \\
 \arrayrulecolor{gray}\hline
-&  &  \\
 
 \end{tabularx}

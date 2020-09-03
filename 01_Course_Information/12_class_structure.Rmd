@@ -2,9 +2,7 @@ All assignments and other coursework are completed individually. However, during
 
 \subsubsection{Learning Modules}
 
-EDAD 7310 is divided into four (4) learning modules:
+EDAD 7310 is divided into two (2) learning modules:
 
-1. The Process of Conducting Research Using Quantitative Approaches I
-2. The Process of Conducting Research Using Quantitative Approaches II
-3. Methods for Collecting Quantitative Data
-4. Analyzing and Interpreting Quantitative Data
+1. The Process of Conducting Research Using Quantitative Approaches
+2. Experimental, Correlational, and Survey Designs

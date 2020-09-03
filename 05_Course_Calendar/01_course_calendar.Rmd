@@ -19,6 +19,6 @@ The Process of Conducting Research Using Quantitative Approaches & J-Z & Saturda
 Experimental, Correlational, and Survey Designs & J-Z & Saturday, November 14, 2020 & Chs. 10--12 \\
  &  &  &  \\
  
-Culminating Assignment/Project (Details TBA) & J-Z & Saturday, December 05, 2020 & --- \\
+Culminating Assignment/Project \newline (Details TBA) & J-Z & Saturday, December 05, 2020 & --- \\
 \hline
 \end{tabularx}
